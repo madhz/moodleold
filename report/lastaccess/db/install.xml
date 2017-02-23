@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <XMLDB PATH="report/lastaccess/db" VERSION="20170209" COMMENT="XMLDB file for Moodle report/lastaccess">
+    <TABLES>
+      <TABLE NAME="report_lastaccess" COMMENT="Default comment for report_lastaccess, please edit me">
+        <FIELDS>
+          <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" />
+        </FIELDS>
+        <KEYS>
+          <KEY NAME="primary" TYPE="primary" FIELDS="id" />
+        </KEYS>
+      </TABLE>
+    </TABLES>
+  </XMLDB>
